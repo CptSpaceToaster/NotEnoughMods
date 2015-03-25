@@ -2347,8 +2347,8 @@
         "function": "CheckJenkins",
         "active": true,
         "jenkins": {
-            "url": "http://coloredlightscore.us.to:8080/job/Chisel-2%20v1.7.10/lastSuccessfulBuild/api/json"
-            "regex": "Chisel2-(?P<version>\d+.\d+.\d+).\d+.jar",
+            "url": "http://coloredlightscore.us.to:8080/job/Chisel-2%20v1.7.10/lastSuccessfulBuild/api/json",
+            "regex": "Chisel2-(?P<version>\\d+.\\d+.\\d+).\\d+.jar",
             "item": 1
         }
     },
